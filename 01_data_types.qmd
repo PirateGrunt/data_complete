@@ -1,0 +1,23 @@
+# Data types 
+
+## Basic data types
+
+How computers represent floating point numbers.
+
+Data type conversion.
+
+## Matrices and tensors
+
+## Structured and unstructured data
+
+## Structure/record/user-defined types
+
+Not quite a thing anymore. More historical/background than practical.
+
+## List-like objects
+
+Heterogeneous, recursive data, JSON/XML
+
+## Document-like objects
+
+key-value pairs

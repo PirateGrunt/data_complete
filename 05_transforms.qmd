@@ -1,0 +1,9 @@
+# Transforms
+
+## Mutations
+
+## Aggregation/summarization
+
+## Window functions
+
+## Pivoting/spreading/unstacking

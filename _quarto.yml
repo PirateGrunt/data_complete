@@ -1,0 +1,33 @@
+project:
+  type: book
+
+book:
+  title: "Data complete"
+  author: "Various authors"
+  date: "8/22/2023"
+  chapters:
+    - index.qmd
+    - 01_data_types.qmd
+    - 02_data_frames.qmd
+    - 03_queries.qmd
+    - 04_combinations_of_data_frames.qmd
+    - 05_transforms.qmd
+    - 06_eda.qmd
+    - 07_missing_data.qmd
+    - 08_rdbms.qmd
+    - 09_nosql.qmd
+    - 10_big_data.qmd
+    - 11_etl_warehouses.qmd
+    - 99_conclusion.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+

@@ -1,0 +1,15 @@
+# Combining data frames
+
+## Inner join
+
+## Outer joins
+
+Also cover semi-joins
+
+## Anti-joins
+
+## Rolling joins
+
+## Union/binding rows
+
+## Inserting single rows

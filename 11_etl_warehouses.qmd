@@ -1,0 +1,3 @@
+# ETL, warehouses, etc.
+
+Need a succinct title for this chapter. Basic idea is: how do multiple data systems interact? What is ETL, what the F$#% is a data lake and so on.

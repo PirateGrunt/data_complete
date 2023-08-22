@@ -1,0 +1,10 @@
+# Big data
+
+## Definition, examples
+
+Four V's, etc.
+
+## map/reduce
+
+## Spark
+

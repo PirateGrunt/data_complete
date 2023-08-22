@@ -1,0 +1,44 @@
+# Data frames
+
+## Normalization/tidy data
+
+::: {.panel-tabset}
+## Base R
+
+``` {.r}
+df_example <- data.frame(
+  col1 = 1:2,
+  col2 = 3:4
+)
+```
+
+## Python
+
+```{python}
+import pandas as pd
+
+df_example = pd.DataFrame(
+  {'col1': [1, 2], 'col2': [3, 4]}
+)
+
+```
+
+
+## tidyverse
+
+```{r}
+library(tibble)
+
+tbl_example <- tibble(
+  col1 = 1:2,
+  col2 = 3:4
+)
+```
+
+
+:::
+
+## CSV and pitfalls
+
+## Parquet
+

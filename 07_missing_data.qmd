@@ -1,0 +1,9 @@
+# Missing data
+
+## Types
+
+Missing-at-random, missing-not-at-random, etc.
+
+## How to address it
+
+Talk to data collectors, ignore it, impute it, 

@@ -1,0 +1,7 @@
+# Queries
+
+## Columnar and row-wise subsets. 
+
+## Logical and ordinal slicing.
+
+## Random sampling, stratified sampling.

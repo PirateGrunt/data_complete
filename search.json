@@ -1,0 +1,275 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data complete",
+    "section": "",
+    "text": "Introduction\nThis book will discuss electronic representations of data. Though this is intended as a practical guide for actuaries working with insurance and risk management data, the principles and techniques may be more general than that."
+  },
+  {
+    "objectID": "01_data_types.html#basic-data-types",
+    "href": "01_data_types.html#basic-data-types",
+    "title": "1  Data types",
+    "section": "1.1 Basic data types",
+    "text": "1.1 Basic data types\nHow computers represent floating point numbers.\nData type conversion."
+  },
+  {
+    "objectID": "01_data_types.html#matrices-and-tensors",
+    "href": "01_data_types.html#matrices-and-tensors",
+    "title": "1  Data types",
+    "section": "1.2 Matrices and tensors",
+    "text": "1.2 Matrices and tensors"
+  },
+  {
+    "objectID": "01_data_types.html#structured-and-unstructured-data",
+    "href": "01_data_types.html#structured-and-unstructured-data",
+    "title": "1  Data types",
+    "section": "1.3 Structured and unstructured data",
+    "text": "1.3 Structured and unstructured data"
+  },
+  {
+    "objectID": "01_data_types.html#structurerecorduser-defined-types",
+    "href": "01_data_types.html#structurerecorduser-defined-types",
+    "title": "1  Data types",
+    "section": "1.4 Structure/record/user-defined types",
+    "text": "1.4 Structure/record/user-defined types\nNot quite a thing anymore. More historical/background than practical."
+  },
+  {
+    "objectID": "01_data_types.html#list-like-objects",
+    "href": "01_data_types.html#list-like-objects",
+    "title": "1  Data types",
+    "section": "1.5 List-like objects",
+    "text": "1.5 List-like objects\nHeterogeneous, recursive data, JSON/XML"
+  },
+  {
+    "objectID": "01_data_types.html#document-like-objects",
+    "href": "01_data_types.html#document-like-objects",
+    "title": "1  Data types",
+    "section": "1.6 Document-like objects",
+    "text": "1.6 Document-like objects\nkey-value pairs"
+  },
+  {
+    "objectID": "02_data_frames.html#normalizationtidy-data",
+    "href": "02_data_frames.html#normalizationtidy-data",
+    "title": "2  Data frames",
+    "section": "2.1 Normalization/tidy data",
+    "text": "2.1 Normalization/tidy data\n\nBase RPythontidyverse\n\n\ndf_example &lt;- data.frame(\n  col1 = 1:2,\n  col2 = 3:4\n)\n\n\n\nimport pandas as pd\n\ndf_example = pd.DataFrame(\n  {'col1': [1, 2], 'col2': [3, 4]}\n)\n\n\n\n\nlibrary(tibble)\n\ntbl_example &lt;- tibble(\n  col1 = 1:2,\n  col2 = 3:4\n)"
+  },
+  {
+    "objectID": "02_data_frames.html#csv-and-pitfalls",
+    "href": "02_data_frames.html#csv-and-pitfalls",
+    "title": "2  Data frames",
+    "section": "2.2 CSV and pitfalls",
+    "text": "2.2 CSV and pitfalls"
+  },
+  {
+    "objectID": "02_data_frames.html#parquet",
+    "href": "02_data_frames.html#parquet",
+    "title": "2  Data frames",
+    "section": "2.3 Parquet",
+    "text": "2.3 Parquet"
+  },
+  {
+    "objectID": "03_queries.html#columnar-and-row-wise-subsets.",
+    "href": "03_queries.html#columnar-and-row-wise-subsets.",
+    "title": "3  Queries",
+    "section": "3.1 Columnar and row-wise subsets.",
+    "text": "3.1 Columnar and row-wise subsets."
+  },
+  {
+    "objectID": "03_queries.html#logical-and-ordinal-slicing.",
+    "href": "03_queries.html#logical-and-ordinal-slicing.",
+    "title": "3  Queries",
+    "section": "3.2 Logical and ordinal slicing.",
+    "text": "3.2 Logical and ordinal slicing."
+  },
+  {
+    "objectID": "03_queries.html#random-sampling-stratified-sampling.",
+    "href": "03_queries.html#random-sampling-stratified-sampling.",
+    "title": "3  Queries",
+    "section": "3.3 Random sampling, stratified sampling.",
+    "text": "3.3 Random sampling, stratified sampling."
+  },
+  {
+    "objectID": "04_combinations_of_data_frames.html#inner-join",
+    "href": "04_combinations_of_data_frames.html#inner-join",
+    "title": "4  Combining data frames",
+    "section": "4.1 Inner join",
+    "text": "4.1 Inner join"
+  },
+  {
+    "objectID": "04_combinations_of_data_frames.html#outer-joins",
+    "href": "04_combinations_of_data_frames.html#outer-joins",
+    "title": "4  Combining data frames",
+    "section": "4.2 Outer joins",
+    "text": "4.2 Outer joins\nAlso cover semi-joins"
+  },
+  {
+    "objectID": "04_combinations_of_data_frames.html#anti-joins",
+    "href": "04_combinations_of_data_frames.html#anti-joins",
+    "title": "4  Combining data frames",
+    "section": "4.3 Anti-joins",
+    "text": "4.3 Anti-joins"
+  },
+  {
+    "objectID": "04_combinations_of_data_frames.html#rolling-joins",
+    "href": "04_combinations_of_data_frames.html#rolling-joins",
+    "title": "4  Combining data frames",
+    "section": "4.4 Rolling joins",
+    "text": "4.4 Rolling joins"
+  },
+  {
+    "objectID": "04_combinations_of_data_frames.html#unionbinding-rows",
+    "href": "04_combinations_of_data_frames.html#unionbinding-rows",
+    "title": "4  Combining data frames",
+    "section": "4.5 Union/binding rows",
+    "text": "4.5 Union/binding rows"
+  },
+  {
+    "objectID": "04_combinations_of_data_frames.html#inserting-single-rows",
+    "href": "04_combinations_of_data_frames.html#inserting-single-rows",
+    "title": "4  Combining data frames",
+    "section": "4.6 Inserting single rows",
+    "text": "4.6 Inserting single rows"
+  },
+  {
+    "objectID": "05_transforms.html#mutations",
+    "href": "05_transforms.html#mutations",
+    "title": "5  Transforms",
+    "section": "5.1 Mutations",
+    "text": "5.1 Mutations"
+  },
+  {
+    "objectID": "05_transforms.html#aggregationsummarization",
+    "href": "05_transforms.html#aggregationsummarization",
+    "title": "5  Transforms",
+    "section": "5.2 Aggregation/summarization",
+    "text": "5.2 Aggregation/summarization"
+  },
+  {
+    "objectID": "05_transforms.html#window-functions",
+    "href": "05_transforms.html#window-functions",
+    "title": "5  Transforms",
+    "section": "5.3 Window functions",
+    "text": "5.3 Window functions"
+  },
+  {
+    "objectID": "05_transforms.html#pivotingspreadingunstacking",
+    "href": "05_transforms.html#pivotingspreadingunstacking",
+    "title": "5  Transforms",
+    "section": "5.4 Pivoting/spreading/unstacking",
+    "text": "5.4 Pivoting/spreading/unstacking"
+  },
+  {
+    "objectID": "06_eda.html#tabularquery",
+    "href": "06_eda.html#tabularquery",
+    "title": "6  EDA",
+    "section": "6.1 Tabular/query",
+    "text": "6.1 Tabular/query"
+  },
+  {
+    "objectID": "06_eda.html#visual",
+    "href": "06_eda.html#visual",
+    "title": "6  EDA",
+    "section": "6.2 Visual",
+    "text": "6.2 Visual"
+  },
+  {
+    "objectID": "07_missing_data.html#types",
+    "href": "07_missing_data.html#types",
+    "title": "7  Missing data",
+    "section": "7.1 Types",
+    "text": "7.1 Types\nMissing-at-random, missing-not-at-random, etc."
+  },
+  {
+    "objectID": "07_missing_data.html#how-to-address-it",
+    "href": "07_missing_data.html#how-to-address-it",
+    "title": "7  Missing data",
+    "section": "7.2 How to address it",
+    "text": "7.2 How to address it\nTalk to data collectors, ignore it, impute it,"
+  },
+  {
+    "objectID": "08_rdbms.html#pour-one-out-for-edgar-codd",
+    "href": "08_rdbms.html#pour-one-out-for-edgar-codd",
+    "title": "8  Relational database management systems",
+    "section": "8.1 Pour one out for Edgar Codd",
+    "text": "8.1 Pour one out for Edgar Codd"
+  },
+  {
+    "objectID": "08_rdbms.html#normalization",
+    "href": "08_rdbms.html#normalization",
+    "title": "8  Relational database management systems",
+    "section": "8.2 Normalization",
+    "text": "8.2 Normalization"
+  },
+  {
+    "objectID": "08_rdbms.html#acid-crud-and-all-that",
+    "href": "08_rdbms.html#acid-crud-and-all-that",
+    "title": "8  Relational database management systems",
+    "section": "8.3 ACID, CRUD and all that",
+    "text": "8.3 ACID, CRUD and all that"
+  },
+  {
+    "objectID": "08_rdbms.html#superficial-notes-about-what-a-dba-does",
+    "href": "08_rdbms.html#superficial-notes-about-what-a-dba-does",
+    "title": "8  Relational database management systems",
+    "section": "8.4 Superficial notes about what a DBA does",
+    "text": "8.4 Superficial notes about what a DBA does"
+  },
+  {
+    "objectID": "09_nosql.html#graph-databases",
+    "href": "09_nosql.html#graph-databases",
+    "title": "9  NoSQL",
+    "section": "9.1 Graph databases",
+    "text": "9.1 Graph databases\nNeo4j"
+  },
+  {
+    "objectID": "09_nosql.html#document-data",
+    "href": "09_nosql.html#document-data",
+    "title": "9  NoSQL",
+    "section": "9.2 Document data",
+    "text": "9.2 Document data\nMongoDB\n\n\n\n\nLuc Perkins, Eric Redmond, and Jim Wilson. 2018. Seven Databases in Seven Weeks 2nd Edition a Guide to Modern Databases & the NoSQL Movement. The Pragmatic Programmers."
+  },
+  {
+    "objectID": "10_big_data.html#definition-examples",
+    "href": "10_big_data.html#definition-examples",
+    "title": "10  Big data",
+    "section": "10.1 Definition, examples",
+    "text": "10.1 Definition, examples\nFour V’s, etc."
+  },
+  {
+    "objectID": "10_big_data.html#mapreduce",
+    "href": "10_big_data.html#mapreduce",
+    "title": "10  Big data",
+    "section": "10.2 map/reduce",
+    "text": "10.2 map/reduce"
+  },
+  {
+    "objectID": "10_big_data.html#spark",
+    "href": "10_big_data.html#spark",
+    "title": "10  Big data",
+    "section": "10.3 Spark",
+    "text": "10.3 Spark"
+  },
+  {
+    "objectID": "11_etl_warehouses.html",
+    "href": "11_etl_warehouses.html",
+    "title": "11  ETL, warehouses, etc.",
+    "section": "",
+    "text": "Need a succinct title for this chapter. Basic idea is: how do multiple data systems interact? What is ETL, what the F$#% is a data lake and so on."
+  },
+  {
+    "objectID": "99_conclusion.html",
+    "href": "99_conclusion.html",
+    "title": "12  Conclusion",
+    "section": "",
+    "text": "Data is hard."
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Luc Perkins, Eric Redmond, and Jim Wilson. 2018. Seven Databases in\nSeven Weeks 2nd Edition a Guide to Modern Databases & the NoSQL\nMovement. The Pragmatic Programmers."
+  }
+]

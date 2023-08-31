@@ -1,12 +1,14 @@
 # Combining data frames
 
-## Inner join
+## Inner joins
 
 ## Outer joins
 
 Also cover semi-joins
 
 ## Anti-joins
+
+## Theta joins
 
 ## Rolling joins
 
